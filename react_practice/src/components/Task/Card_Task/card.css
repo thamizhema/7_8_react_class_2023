@@ -1,0 +1,59 @@
+.card-div {
+  height: 300px;
+  width: 300px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+}
+.popup-menu {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile .profile-img {
+  height: 120px;
+  width: 120px;
+  background: gray;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile .profile-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.profile .profile-name {
+  color: #242424;
+  font-size: 25px;
+}
+
+.card-div .status {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 40px;
+  color: gray;
+}
+.status-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
