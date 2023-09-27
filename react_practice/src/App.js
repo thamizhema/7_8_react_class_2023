@@ -4,11 +4,14 @@ import About from "./components/About/About";
 import MyClass from "./components/common/MyClass";
 import Button from "./components/common/Button";
 import Container from "./components/common/Container";
+import Counter from "./components/counter/Counter";
 
 export default function App() {
   return (
     <>
-      <h1>MY heading</h1>
+      <Counter />
+
+      {/* <h1>MY heading</h1>
       <h2>My Heading 2</h2>
       <Container>
         <Button
@@ -29,7 +32,7 @@ export default function App() {
           <li>item4</li>
           <li>ite5</li>
         </ul>
-      </Container>
+      </Container> */}
     </>
   );
 }
