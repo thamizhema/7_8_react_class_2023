@@ -5,11 +5,15 @@ import MyClass from "./components/common/MyClass";
 import Button from "./components/common/Button";
 import Container from "./components/common/Container";
 import Counter from "./components/counter/Counter";
+import MainDiv from "./components/task_2/MainDiv";
+import MyDataComp from "./components/task_3/MyDataComp";
 
 export default function App() {
   return (
     <>
-      <Counter />
+      <MyDataComp />
+      {/* <MainDiv /> */}
+      {/* <Counter /> */}
 
       {/* <h1>MY heading</h1>
       <h2>My Heading 2</h2>
