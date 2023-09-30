@@ -7,14 +7,15 @@ import Container from "./components/common/Container";
 import Counter from "./components/counter/Counter";
 import MainDiv from "./components/task_2/MainDiv";
 import MyDataComp from "./components/task_3/MyDataComp";
+import MainBox from "./components/task_4/MainBox";
 
 export default function App() {
   return (
     <>
-      <MyDataComp />
+      <MainBox />
+      {/* <MyDataComp /> */}
       {/* <MainDiv /> */}
       {/* <Counter /> */}
-
       {/* <h1>MY heading</h1>
       <h2>My Heading 2</h2>
       <Container>
