@@ -8,11 +8,16 @@ import Counter from "./components/counter/Counter";
 import MainDiv from "./components/task_2/MainDiv";
 import MyDataComp from "./components/task_3/MyDataComp";
 import MainBox from "./components/task_4/MainBox";
+import State1 from "./components/state_management/State1";
+import MyReducerComp from "./components/my_reducer/MyReducerComp";
+import DataAccess from "./components/data_access/DataAccess";
 
 export default function App() {
   return (
     <>
-      <MainBox />
+      <DataAccess />
+      {/* <MyReducerComp /> */}
+      {/* <State1 /> */}
       {/* <MyDataComp /> */}
       {/* <MainDiv /> */}
       {/* <Counter /> */}
