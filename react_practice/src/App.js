@@ -11,11 +11,15 @@ import MainBox from "./components/task_4/MainBox";
 import State1 from "./components/state_management/State1";
 import MyReducerComp from "./components/my_reducer/MyReducerComp";
 import DataAccess from "./components/data_access/DataAccess";
+import Todo from "./components/todo_task/Todo";
 
 export default function App() {
   return (
     <>
-      <DataAccess />
+      <Todo />
+      {/* <DataAcces
+      
+      s /> */}
       {/* <MyReducerComp /> */}
       {/* <State1 /> */}
       {/* <MyDataComp /> */}
