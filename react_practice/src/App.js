@@ -12,11 +12,13 @@ import State1 from "./components/state_management/State1";
 import MyReducerComp from "./components/my_reducer/MyReducerComp";
 import DataAccess from "./components/data_access/DataAccess";
 import Todo from "./components/todo_task/Todo";
+import MyStyle from "./components/ref_practice/MyStyle";
 
 export default function App() {
   return (
     <>
-      <Todo />
+      <MyStyle />
+      {/* <Todo /> */}
       {/* <DataAcces
       
       s /> */}
